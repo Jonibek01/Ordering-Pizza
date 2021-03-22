@@ -10,58 +10,64 @@
 <body>
 
   <main>
-    <div class="container mt-3">
+    <div class="container mt-5">
       <div class="row">
         <div class="col-8">
 
           <form class="pizza-form js-pizza-form" action="#" id="pizza-form" method="POST">
 
             <div>
-              <label for="bread-select">Non turi</label>
+              <label for="bread-select"><h4 class="">Non turi</h4></label>
                 <select class="bread-select js-bread-select" name="bread" id="bread-select">
                   <option value="Qalinligi" disabled selected>Qalinligi</option>
-                  <option value="Yupqa">Yupqa</option>
-                  <option value="O'rtacha">O'rtacha</option>
-                  <option value="Qalin">Qalin</option>
                 </select>
             </div>
 
             <fieldset>
               <legend>Kattaligi</legend>
-              <label>
-                <input class="size-radio js-size-radio" type="radio" name="size" value="25">
-                <span>25 cm</span>
-              </label>
-              <!-- <label>
-                <input class="size-radio" type="radio" name="size" value="30">
-                <span>30 cm</span>
-              </label>
-              <label>
-                <input class="size-radio" type="radio" name="size" value="35">
-                <span>35 cm</span>
-              </label> -->
+              <!-- 
+                <label>
+                  <input class="size-radio js-size-radio" type="radio" name="size" value="25">
+                  <span>25 cm</span>
+                </label> 
+              -->
+              <div class="js-size-radio">
+
+              </div>
+
             </fieldset>
 
             <fieldset>
               <legend>Ustiga nima solaylik?</legend>
               <label>
-                  <input class="topping-checkbox js-topping-checkbox" type="checkbox" value="Pomidor">
-                  <span>Pomidor</span>
+                  <!-- 
+                    <input class="topping-checkbox js-topping-checkbox" type="checkbox" value="Pomidor">
+                    <span>Pomidor</span> 
+                  -->
               </label>
+              <div class="js-topping-checkbox">
+
+              </div>
             </fieldset>
 
             <fieldset>
               <legend>Qo'shimchalar</legend>
               <label>
-                  <input class="addl-ingredient js-addl-ingredient" type="checkbox" value="Achchiq">
-                  <span>Achchiq</span>
+                  <!-- 
+                    <input class="addl-ingredient js-addl-ingredient" type="checkbox" value="Achchiq">
+                    <span>Achchiq</span> 
+                  -->
               </label>
+              <div class="js-addl-ingredients">
+
+              </div>
+
             </fieldset>
           
           </form>
         </div>
 
-        <div class="col-4">
+        <div class="order-state col-4">
 
           <h2 class="h4">Buyurtma</h2>
 
